@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* MENU */
+nav {
+    background: #020617;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* CONTAINER */
+.container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* CARDS */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* TITULOS */
+h1, h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+/* IMAGEM */
+img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* FORMULÁRIO */
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background: #38bdf8;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
